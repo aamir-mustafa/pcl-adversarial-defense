@@ -30,11 +30,13 @@ The deep features for the prototype conformity loss are extracted from different
 
 
 
-``pcl_training.py`` -- (for our training).
+``pcl_training.py`` -- (joint supervision with cross-entropy and our loss).
 
 * The trained checkpoints will be saved in ``Models_PCL`` folder.
 
+## Testing Model's Robustness against White-Box Attacks
 
+``robustness.py`` -- (Evalauation of trained model's robustness).
 
 ## Citation
 ```
