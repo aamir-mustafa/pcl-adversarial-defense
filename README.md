@@ -18,7 +18,7 @@ cd pcl-adversarial-defense
 ## Softmax (Cross-Entropy) Training
 To expedite the process of forming clusters for our proposed loss, we initially train the model using cross-entropy loss.
  
-``softmax_training.py`` -- (for initial softmax training).
+``softmax_training.py`` -- ( For initial softmax training).
 
 * The trained checkpoints will be saved in ``Models_Softmax`` folder.
 
@@ -30,7 +30,7 @@ The deep features for the prototype conformity loss are extracted from different
 
 
 
-``pcl_training.py`` -- (joint supervision with cross-entropy and our loss).
+``pcl_training.py`` -- ( Joint supervision with cross-entropy and our loss).
 
 * The trained checkpoints will be saved in ``Models_PCL`` folder.
 
