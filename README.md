@@ -41,10 +41,10 @@ The deep features for the prototype conformity loss are extracted from different
 ## Comparison of Softmax Trained Model and Our Model
 Retained classification accuracy of the model's under various types of adversarial attacks:
 
-| Training | Clean  | FGSM  |  BIM  |  MIM  |  PGD  |
-| :------- | :----- | :---- |:----  |:----- |:----- |
-| Softmax  | 92.15  | 21.48 |  0.01 |  0.02 |  0.00 |
-| Ours     | 89.55  | 55.76 | 39.75 | 36.44 | 31.10 |
+| Training Scheme |  No Attack  |  FGSM  |   BIM   |   MIM   |   PGD   |
+| :-------        | :---------- | :----- |:------  |:------  |:------  |
+|     Softmax     |    92.15    |  21.48 |   0.01  |   0.02  |   0.00  |
+|      Ours       |    89.55    |  55.76 |  39.75  |  36.44  |  31.10  |
 
 
 ## Citation
