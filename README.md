@@ -28,14 +28,13 @@ The deep features for the prototype conformity loss are extracted from different
 
 ![](Block_Diag.png)
 
+
+
 ``pcl_training.py`` -- (for our training).
 
 * The trained checkpoints will be saved in ``Models_PCL`` folder.
 
 
-## Accuracy Prediction
-
-``Accuracy.py`` (Evaluate the performace of our method by comparing accuracies on adversarial and recovered images).
 
 ## Citation
 ```
