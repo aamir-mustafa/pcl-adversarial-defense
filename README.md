@@ -1,6 +1,6 @@
 # Adversarial Defense by Restricting the Hidden Space of Deep Neural Networks
 
-![](Mapping_function.png)
+![](Mapping_Function.png)
 
 This repository is an PyTorch implementation of the paper [Adversarial Defense by Restricting the Hidden Space of Deep Neural Networks](https://arxiv.org/abs/1904.00887)
 
