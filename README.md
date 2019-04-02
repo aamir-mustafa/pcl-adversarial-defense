@@ -36,7 +36,7 @@ The deep features for the prototype conformity loss are extracted from different
 
 ## Testing Model's Robustness against White-Box Attacks
 
-``robustness.py`` -- (Evalauation of trained model's robustness).
+``robustness.py`` -- (Evaluate trained model's robustness against various types of attacks).
 
 ## Citation
 ```
