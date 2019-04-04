@@ -20,7 +20,7 @@ if True:
 #Loading Trained Model
 softmax_filename= 'Models_Softmax/CIFAR10_Softmax.pth.tar'    
 filename= 'Models_PCL/CIFAR10_PCL.pth.tar'  
-checkpoint = torch.load(softmax_filename)
+checkpoint = torch.load(filename)
 model.load_state_dict(checkpoint['state_dict'])
 model.eval()
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
