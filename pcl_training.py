@@ -229,7 +229,7 @@ def train(model, criterion_xent, criterion_prox_1024, criterion_prox_256,
         conprox_losses_256.update(loss_conprox_256.item(), labels.size(0))
 
         if (batch_idx+1) % args.print_freq == 0:
-            print("Batch {}/{}\t Loss {:.6f} ({:.6f})  XentLoss {:.6f} ({:.6f})  CenterLoss {:.6f} ({:.6f}) CenterLoss2 {:.6f} ({:.6f}) \n CenterLoss_o {:.6f} ({:.6f}) CenterLoss2_o {:.6f} ({:.6f}) " \
+            print("Batch {}/{}\t Loss {:.6f} ({:.6f})  XentLoss {:.6f} ({:.6f})  ProxLoss_1024 {:.6f} ({:.6f}) ProxLoss_256 {:.6f} ({:.6f}) \n ConProxLoss_1024 {:.6f} ({:.6f}) ConProxLoss_256 {:.6f} ({:.6f}) " \
                   .format(batch_idx+1, len(trainloader), losses.val, losses.avg, xent_losses.val, xent_losses.avg, 
                           prox_losses_1024.val, prox_losses_1024.avg, prox_losses_256.val, prox_losses_256.avg , 
                           conprox_losses_1024.val, conprox_losses_1024.avg, conprox_losses_256.val,
