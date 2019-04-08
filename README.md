@@ -34,6 +34,12 @@ The deep features for the prototype conformity loss are extracted from different
 
 * The trained checkpoints will be saved in ``Models_PCL`` folder.
 
+## Adversarial Training
+``pcl_training_adversarial_fgsm.py`` -- ( Adversarial Training using FGSM Attack).
+``pcl_training_adversarial_pgd.py`` -- ( Adversarial Training using PGD Attack).
+
+
+
 ## Testing Model's Robustness against White-Box Attacks
 
 ``robustness.py`` -- (Evaluate trained model's robustness against various types of attacks).
