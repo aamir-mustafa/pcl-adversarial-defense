@@ -54,10 +54,10 @@ Retained classification accuracy of the model's under various types of adversari
 
 
 ## Citation
-```@article{mustafa2019adversarial,
+``@article{mustafa2019adversarial,
   title={Adversarial Defense by Restricting the Hidden Space of Deep Neural Networks},
   author={Mustafa, Aamir and Khan, Salman and Hayat, Munawar and Goecke, Roland and Shen, Jianging and Shao, Ling},
   journal={arXiv preprint arXiv:1904.00887},
   year={2019}
 }
-```
+``
