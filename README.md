@@ -1,8 +1,8 @@
-# Adversarial Defense by Restricting the Hidden Space of Deep Neural Networks
+# Adversarial Defense by Restricting the Hidden Space of Deep Neural Networks (ICCV'19)
 
 ![Figure 1](Mapping_Function.png)
 
-This repository is an PyTorch implementation of the paper [Adversarial Defense by Restricting the Hidden Space of Deep Neural Networks](https://arxiv.org/abs/1904.00887)
+This repository is an PyTorch implementation of the ICCV'19 paper [Adversarial Defense by Restricting the Hidden Space of Deep Neural Networks](https://arxiv.org/abs/1904.00887).
 
 To counter adversarial attacks, we propose Prototype Conformity Loss to class-wise disentangle intermediate features of a deep network. From the figure, it can be observed that the main reason for the existence of such adversarial samples is the close proximity of learnt features in the latent feature space.
 
@@ -59,7 +59,7 @@ Retained classification accuracy of the model's under various types of adversari
 @article{mustafa2019adversarial,
   title={Adversarial Defense by Restricting the Hidden Space of Deep Neural Networks},
   author={Mustafa, Aamir and Khan, Salman and Hayat, Munawar and Goecke, Roland and Shen, Jianging and Shao, Ling},
-  journal={arXiv preprint arXiv:1904.00887},
+  journal={International Conference on Computer Vision (ICCV)},
   year={2019}
 }
 ```
