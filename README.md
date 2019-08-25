@@ -1,4 +1,4 @@
-# Adversarial Defense by Restricting the Hidden Space of Deep Neural Networks
+# Adversarial Defense by Restricting the Hidden Space of Deep Neural Networks, in ICCV 2019
 
 ![Figure 1](Mapping_Function.png)
 
