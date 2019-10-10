@@ -89,7 +89,7 @@ def attack(model, criterion, img, label, eps, attack_type, iters):
         noise = 0
         
     for j in range(iterations):
-        _,_,_,out_adv = model(normalize(adv.clone()))
+        _,_,_,out_adv = model(adv.clone())
         loss = criterion(out_adv, label)
         loss.backward()
 
@@ -103,7 +103,7 @@ def attack(model, criterion, img, label, eps, attack_type, iters):
             noise = adv.grad
 
         # Optimization step
-        adv.data = adv.data + step * noise.sign()
+        adv.data = un_normalize(adv.data) + step * noise.sign()
 #        adv.data = adv.data + step * adv.grad.sign()
 
         if attack_type == 'pgd':
