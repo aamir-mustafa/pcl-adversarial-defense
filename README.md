@@ -57,11 +57,12 @@ Retained classification accuracy of the model's under various types of adversari
 
 ## Citation
 ```
-@article{mustafa2019adversarial,
-  title={Adversarial Defense by Restricting the Hidden Space of Deep Neural Networks},
-  author={Mustafa, Aamir and Khan, Salman and Hayat, Munawar and Goecke, Roland and Shen, Jianbing and Shao, Ling},
-  journal={International Conference on Computer Vision (ICCV)},
-  year={2019}
+@InProceedings{Mustafa_2019_ICCV,
+author = {Mustafa, Aamir and Khan, Salman and Hayat, Munawar and Goecke, Roland and Shen, Jianbing and Shao, Ling},
+title = {Adversarial Defense by Restricting the Hidden Space of Deep Neural Networks},
+booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+month = {October},
+year = {2019}
 }
 ```
 
